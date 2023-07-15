@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#mode-toggle[data-joy-color-scheme="dark"] {
+    background-color: #010101;
+}
+#mode-toggle[data-joy-color-scheme="light"] {
+    background-color: #fefefe;
+}
